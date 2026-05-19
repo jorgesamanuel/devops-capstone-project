@@ -1,4 +1,4 @@
-# DevOps Capstone Project
+# DevOps-Capstone-Project
 
 ![Build Status](https://github.com)
 
