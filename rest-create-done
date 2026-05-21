@@ -1,0 +1,17 @@
+--- COMMAND ---
+curl -i -X POST http://127.0.0.1:5000/accounts -H "Content-Type: application/json" -d '{"name":"John Doe","email":"john@doe.com","address":"123 Main St.","phone_number":"555-1212"}'
+
+--- OUTPUT ---
+HTTP/1.1 201 CREATED
+Server: gunicorn
+Content-Type: application/json
+Location: http://127.0.0.1:5000/accounts/1
+
+{
+  "address": "123 Main St.", 
+  "date_joined": "2026-05-21", 
+  "email": "john@doe.com", 
+  "id": 1, 
+  "name": "John Doe", 
+  "phone_number": "555-1212"
+}

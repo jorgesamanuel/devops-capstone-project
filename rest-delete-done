@@ -1,0 +1,7 @@
+--- COMMAND ---
+curl -i -X DELETE http://127.0.0.1:5000/accounts/1
+
+--- OUTPUT ---
+HTTP/1.1 204 NO CONTENT
+Server: gunicorn
+Content-Type: text/html; charset=utf-8

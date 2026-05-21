@@ -1,0 +1,18 @@
+--- COMMAND ---
+curl -i -X GET http://127.0.0.1:5000/accounts
+
+--- OUTPUT ---
+HTTP/1.1 200 OK
+Server: gunicorn
+Content-Type: application/json
+
+[
+  {
+    "address": "123 Main St.", 
+    "date_joined": "2026-05-21", 
+    "email": "john@doe.com", 
+    "id": 1, 
+    "name": "John Doe", 
+    "phone_number": "555-1212"
+  }
+]
